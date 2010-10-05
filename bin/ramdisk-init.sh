@@ -1,0 +1,1 @@
+bin.mac/ramdisk-init.sh
