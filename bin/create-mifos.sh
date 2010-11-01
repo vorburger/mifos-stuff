@@ -1,5 +1,4 @@
-/usr/local/mysql/bin/mysql -u root < create-mifos.sql
-/usr/local/mysql/bin/mysql -D mifos -u mifos -pmifos < ../sql/latest-schema.sql
-/usr/local/mysql/bin/mysql -D mifos -u mifos -pmifos < ../sql/latest-data.sql
-/usr/local/mysql/bin/mysql -D mifos -u mifos -pmifos < ../sql/init_mifos_password.sql
-
+mysql -u root < create-mifos.sql
+mysql -D mifos -u mifos -pmifos < ../../mifos-head/application/src/main/sql/latest-schema.sql
+mysql -D mifos -u mifos -pmifos < ../../mifos-head/application/src/main/sql/latest-data.sql
+mysql -D mifos -u mifos -pmifos < ../../mifos-head/application/src/main/sql/init_mifos_password.sql
