@@ -1,1 +1,0 @@
-../vorburger-mifos-head/application/src/main/sql/
