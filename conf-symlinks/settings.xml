@@ -6,7 +6,7 @@
             <activeByDefault>true</activeByDefault>
          </activation>
          <properties>
-            <tomcat.container.url>file:///Users/vorburger/bin/apache-tomcat-6.0.29.zip</tomcat.container.url>
+            <tomcat.container.url>file://${user.home}/bin/apache-tomcat-6.0.29.zip</tomcat.container.url>
          </properties>
       </profile>
    </profiles>
