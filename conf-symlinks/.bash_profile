@@ -1,4 +1,4 @@
-alias mysql=/usr/local/mysql/bin/mysql
+# now an ln in bin: alias mysql=/usr/local/mysql/bin/mysql
 alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 export M2_HOME=~/bin/apache-maven
 export PATH=~/bin:$PATH
