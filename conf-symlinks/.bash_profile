@@ -8,4 +8,4 @@ export EDITOR=nano
 alias mis="ssh -A mi@saltimboca"
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
-
+alias mvnq='mvn -Dcpd.skip=true -Dmaven.test.skip=true -Dpmd.skip=true -Dfindbugs.skip=true'
