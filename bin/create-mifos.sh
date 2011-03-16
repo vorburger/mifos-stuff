@@ -12,7 +12,7 @@ mysql -D mifostest -u mifos -pmifos < $MAIN_SQL_DIR/base-data.sql
 # http://mifosforge.jira.com/browse/MIFOS-4637 says you must use either integration_* or acceptance_*, so: 
 # mysql -D mifos -u mifos -pmifos     < $TEST_SQL_DIR/integration_test_data.sql
 # mysql -D mifostest -u mifos -pmifos < $TEST_SQL_DIR/integration_test_data.sql
-mysql -D mifos -u mifos -pmifos     < $TEST_SQL_DIR/acceptance_test_data.sql
-mysql -D mifostest -u mifos -pmifos < $TEST_SQL_DIR/acceptance_test_data.sql
+mysql -D mifos -u mifos -pmifos     < $TEST_SQL_DIR/acceptance_test_dump.sql
+mysql -D mifostest -u mifos -pmifos < $TEST_SQL_DIR/acceptance_test_dump.sql
 mysql -D mifos -u mifos -pmifos     < $MAIN_SQL_DIR/init_mifos_password.sql
 mysql -D mifostest -u mifos -pmifos < $MAIN_SQL_DIR/init_mifos_password.sql
