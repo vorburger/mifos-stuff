@@ -10,3 +10,4 @@ git config --global core.eol lf
 ### git config --global core.autocrlf true
 git config --global color.diff true
 git config --global color.status true
+git config --global rerere.enabled 1
